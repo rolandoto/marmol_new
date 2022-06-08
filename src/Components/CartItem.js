@@ -18,9 +18,10 @@ function CartItem({ itemId, name, imgSrc, price }) {
     if (action == "add") {
       setQty(qty + 1);
     } else {
+      var myIndex = cartItems.indexOf(id);
       // initial state value is one so you need to check if 1 then remove it
       if (qty == 1) {
-        cartItems.pop(id);
+        cartItems.splice(myIndex,1)
         dispatch({
           type: actionType.SET_CART,
           cart: cartItems,

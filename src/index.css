@@ -30,3 +30,36 @@ a {
 img {
   max-width: 100%;
 }
+
+
+.itemImge{
+    width: 115%;
+    /* height: 100%; */
+    /* object-fit: contain; */
+    border-radius: 19px;
+}
+img{
+  font-size: 20px;
+}
+
+
+.App-container-menu{
+
+    display: flex;
+    max-width: 500px;
+    max-height: 1100px;
+    flex-direction: column;
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 0 0 50px rgb(0, 0, 0, .4);
+    overflow: auto;
+}
+
+.Container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #FFF;
+  overflow: auto;
+  padding: 15px;
+}

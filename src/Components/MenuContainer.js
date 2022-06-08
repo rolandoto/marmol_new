@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function MenuContainer({ link, icon, isHome }) {
   return (
     <li className={isHome ? `active` : ``}>
-      <a href={link}>
+      <Link to={link}>
         <span className="icon">{icon}</span>
-      </a>
+      </Link>
     </li>
   );
 }
