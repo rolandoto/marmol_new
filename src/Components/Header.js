@@ -5,6 +5,7 @@ import {
 } from "@mui/icons-material";
 import React, { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
+import {Link} from "react-router-dom"
 
 function Header() {
   const [{ cart }, dispatch] = useStateValue();
@@ -18,11 +19,14 @@ function Header() {
 
   return (
     <header>
-      <img
-        src="https://ciudadenredsas.info/mademarmol/wp-content/uploads/sites/42/2019/05/logo-final-1.png"
-        alt=""
-        className="logo"
-      />
+
+      <Link to="/" >
+        <img
+          src="https://ciudadenredsas.info/mademarmol/wp-content/uploads/sites/42/2019/05/logo-final-1.png"
+          alt=""
+          className="logo"
+        />
+      </Link>
       <div className="inputBox">
         <SearchRounded className="searchIcon" />
         <input type="text" placeholder="Buscar Productos" />

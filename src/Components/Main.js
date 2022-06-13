@@ -55,7 +55,7 @@ function Main() {
 
   return (
     <div className="App">
-      <Header />
+      
       <main>
         <div className="mainContainer">
           {/* Banner  */}

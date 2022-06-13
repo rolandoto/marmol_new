@@ -47,8 +47,7 @@ function ItemCard({id, itemId, imgSrc, name, price, ratings }) {
     <div className="itemCard" id={itemId}>
     <div
       className={`isFavourite ${isFavourite ? "active" : ""}`}
-      onClick={() => setFavourite(!isFavourite)}
-    >
+      onClick={() => setFavourite(!isFavourite)}>
       {icon}
     </div>
     <div className="icon-whatsapp" >
@@ -79,16 +78,7 @@ function ItemCard({id, itemId, imgSrc, name, price, ratings }) {
             {price}
           </h3>
         </div>
-       
-
-          <i
-            className="addToCart"
-            onClick={() => {
-              setCart(Items.find((n) => n.id === itemId));
-            }}
-          >
-            <AddRounded />
-          </i>
+          
       </div>
       <h3 className="itemName">{name}</h3>
     </div>
