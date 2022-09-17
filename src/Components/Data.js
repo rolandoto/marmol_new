@@ -5,33 +5,47 @@ const MenuItems = [
     name: "Grifería",
   },
   {
-    id: 1,
+    id: 2,
     itemId: "lavamanos01",
     name: "Lavamanos",
     imgSrc:
       "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
   } ,
   {
-    id: 1,
+    id: 3,
     itemId: "cocinas01",
-    name: "Cocina",
+    name: "Cubierta",
     imgSrc:
       "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
   } ,
   {
-    id: 1,
+    id: 4,
     itemId: "hornos01",
     name: "Hornos",
     imgSrc:
       "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
   },
   {
-    id: 1,
+    id: 5,
     itemId: "campanas01",
     name: "Campanas",
     imgSrc:
       "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
-  } 
+  } ,
+  {
+    id: 6,
+    itemId: "herraje01",
+    name: "Herraje de alta especificacion",
+    imgSrc:
+      "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
+  },
+  {
+    id: 7,
+    itemId: "lavaplatos01",
+    name: "Lava platos",
+    imgSrc:
+      "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
+  }
 ];
 
 const Items = [
@@ -928,7 +942,690 @@ const Items = [
     description:"Campana tipo isla de 90 cm de ancho, ideal para instalar en el techo de tu cocina y dar un toque decorativo a este espacio. Su sistema de extracción ultra potente incluye 4 velocidades de operación para más eficiencia y un timer programable para usar cada velocidad por el tiempo que prefieras.",
     price: "2.172.900",
   },
-  
+  {
+    id: 119,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-alacenas-hejercol-2021.jpg",
+    name: "Almacenes",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 120,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-basureras-hejercol-2021.jpg",
+    name: "Basureras",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+  {
+    id: 121,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-bisagras-hettich-hejercol-2021.jpg",
+    name: "Bisagras Hettich",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+  {
+    id: 122,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-bisagras-kimana-italiana-ferramenta-hejercol-2021.jpg",
+    name: "Bisagra Kimana italiana",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 123,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-bisagras-samet-hejercol-2021.jpg",
+    name: "Bisagra same",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 122,
+    itemId: "herraje01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/cali/IMG_4026.jpg?raw=true",
+    name: "",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 123,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-cajones-hettich-hejercol-2021.jpg",
+    name: "Cajones Hettich",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 124,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-cajones-samet-hejercol-2021.jpg",
+    name: "Cajones samet",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 125,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-canastillas-grasshopper-hejercol-2021.jpg",
+    name: "Canastilla  grass Hopper",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 126,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-complementos-cajones-hettich-hejercol-2021.jpg",
+    name: "Complementos cajos Hettich",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+  {
+    id: 127,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-complementos-cajones-samet-hejercol-2021.jpg",
+    name: "Complementos cajones  semet",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+  {
+    id: 128,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-condimenteros-hejercol-2021.jpg",
+    name: "Condimenteros",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 129,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-correderas-ocultas-hettich-hejercol-2021.jpg",
+    name: "Cerredoras  Ocultas Hettich",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 130,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-correderas-ocultas-kautat-hejercol-2021.jpg",
+    name: "Correderas  Ocultas Kautat",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 131,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-cuberteros-hejercol-2021.jpg",
+    name: "Cuberteros",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 132,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-elementos-union-ensamble-hejercol-2021.jpg",
+    name: "Elementos union",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 133,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/06/cat-escurreplatos-calha-umida-quadratta-hejercol.jpg",
+    name: "Escurreplatos",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 134,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-esquinas-magicas-hejercol-2021.jpg",
+    name: "Esquinas maquinas",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 135,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-herrajes-accesorios-varios-hejercol-2021.jpg",
+    name: "Herrajes y acesorios",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 136,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/06/c-productos-iluminacion-hejercol.jpg",
+    name: "Iluminacion",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 137,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-organizadores-cajon-hettich-hejercol-2021.jpg",
+    name: "Organizadores de cajon Hettich",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 138,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-organizadores-cajon-samet-hejercol-2021.jpg",
+    name: "Organizadores de cajos semet",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 139,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-perfiles-hejercol-2021.jpg",
+    name: "Perfil",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 140,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-platilleros-hejercol-2021.jpg",
+    name: "Platilleros",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 141,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-platilleros-hejercol-2021.jpg",
+    name: "Sistema Push to Open",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 142,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-sistema-push-to-open-hejercol-2021.jpg",
+    name: "Sistema  ELevales Italiana Ferramenta",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 143,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-sistemas-elevables-italiana-ferramenta-hejercol-2021.jpg",
+    name: "Sistemas elevales Kessebohnmer ",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+
+  {
+    id: 144,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-sistemas-elevables-kessebohmer-hejercol-2021.jpg",
+    name: "Sistemas elevales kessebohmer ",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+  {
+    id: 145,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-soportes-entrepano-hejercol-2021.jpg",
+    name: "soprtes entrepano",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+  {
+    id: 146,
+    itemId: "herraje01",
+    imgSrc:
+      "https://www.hejercol.com/wp-content/uploads/2021/05/c-zocalos-hejercol-2021.jpg",
+    name: "Zocales hejercol",
+    ratings: 6,
+    description:"",
+    price: "",
+  },
+  {
+    id: 147,
+    itemId: "herraje01",
+    imgSrc:
+      "http://maxitools.com.co/wp-content/uploads/2022/09/ALACENA-12-CANASTAS-600x422.webp",
+    name: "Almacena 12 canasta",
+    ratings: 6,
+    description:"",
+    price: "632,298",
+  },
+
+  {
+    id: 147,
+    itemId: "herraje01",
+    imgSrc:
+      "http://maxitools.com.co/wp-content/uploads/2022/09/ALACENA-SENCILLA-5-NIVELES.webp",
+    name: "Almacena sencillas 5 niveles",
+    ratings: 6,
+    description:"",
+    price: "611,926",
+  },
+
+
+  {
+    id: 148,
+    itemId: "herraje01",
+    imgSrc:
+      "http://maxitools.com.co/wp-content/uploads/2022/09/535463-600x422.webp",
+    name: "Almacena triple catorce canasta abatible",
+    ratings: 6,
+    description:"",
+    price: "674,201",
+  },
+
+  {
+    id: 149,
+    itemId: "herraje01",
+    imgSrc:
+      "http://maxitools.com.co/wp-content/uploads/2022/09/535463-600x422.webp",
+    name: "Almacena  condimentro 2 niveles",
+    ratings: 6,
+    description:"",
+    price: "105,512",
+  },
+
+  {
+    id: 150,
+    itemId: "herraje01",
+    imgSrc:
+      "http://maxitools.com.co/wp-content/uploads/2022/09/CANASTA-PARA-VAJILLA-CON-BANDEJA-600x613.webp",
+    name: "Canasta  para ollas",
+    ratings: 6,
+    description:"",
+    price: "200,362",
+  },
+  {
+    id: 151,
+    itemId: "herraje01",
+    imgSrc:
+      "http://maxitools.com.co/wp-content/uploads/2022/09/CANASTA-PARA-VAJILLA-CON-BANDEJA-600x613.webp",
+    name: "Canasta para viajilla con bandenja",
+    ratings: 6,
+    description:"",
+    price: "318,758",
+  },
+  {
+    id: 152,
+    itemId: "herraje01",
+    imgSrc:
+      "http://maxitools.com.co/wp-content/uploads/2022/09/CARRO-BOTELLERO-2-NIVELES-150mm-gabinete-cable-redondo-105x460x510.webp",
+    name: "Carro botellero 2 niveles",
+    ratings: 6,
+    description:"",
+    price: "130,477",
+  },
+
+{
+  id: 153,
+  itemId: "herraje01",
+  imgSrc:
+    "http://maxitools.com.co/wp-content/uploads/2022/09/CARRO-BOTELLERO-3.webp",
+  name: "Carro botellero 3 niveles",
+  ratings: 6,
+  description:"",
+  price: "137,709",
+},
+
+{
+  id: 154,
+  itemId: "herraje01",
+  imgSrc:
+    "http://maxitools.com.co/wp-content/uploads/2022/09/CARRO-BOTELLERO-3-NIVELES-600x690.webp",
+  name: "Carro botellero 3 niveles",
+  ratings: 6,
+  description:"",
+  price: "173,106",
+},
+{
+  id: 155,
+  itemId: "herraje01",
+  imgSrc:
+    "http://maxitools.com.co/wp-content/uploads/2022/09/CARRO-DOS-NIVELES.webp",
+  name: "Carro dos niveles",
+  ratings: 6,
+  description:"",
+  price: "161,469",
+},
+
+{
+  id: 156,
+  itemId: "herraje01",
+  imgSrc:
+    "http://maxitools.com.co/wp-content/uploads/2022/09/CARRO-TRIPLE-600x438.webp",
+  name: "Carro triple",
+  ratings: 6,
+  description:"",
+  price: "134,854",
+},
+
+{
+  id: 157,
+  itemId: "herraje01",
+  imgSrc:
+    "http://maxitools.com.co/wp-content/uploads/2022/09/ESQUINA-MAGICA-600x438.webp",
+  name: "Esquina magica",
+  ratings: 6,
+  description:"",
+  price: "675,765",
+},
+
+{
+  id: 158,
+  itemId: "herraje01",
+  imgSrc:
+    "http://maxitools.com.co/wp-content/uploads/2022/09/535463-600x422.webp",
+  name: "Maxi19",
+  ratings: 6,
+  description:"",
+  price: "535,463",
+},
+{
+  id: 159,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/175520-400-400/prime-80x44cm-1.jpg?v=637940165661900000",
+  name: "Lavaplatos Prime Doble Tanque 80x44cm + Canastilla y Rejilla",
+  ratings: 6,
+  description:"",
+  price: "1,732,900",
+},
+{
+  id: 160,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/175509-400-400/prime-54x-44cm-1.jpg?v=637940158604000000",
+  name: "Lavaplatos Prime 54x44cm + Canastilla y Rejilla",
+  ratings: 6,
+  description:"",
+  price: "1,049,900",
+},
+{
+  id: 161,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/175496-400-400/prime-44x44-canastillayrejilla-11.jpg?v=637940146475400000",
+  name: "Lavaplatos Prime 44x44cm + Canastilla y Rejilla",
+  ratings: 6,
+  description:"",
+  price: "892,900",
+},
+{
+  id: 162,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/174426-400-400/lavaplatos-triple-tanque-100x51.jpg?v=637781993771600000",
+  name: "Lavaplatos Prime 44x44cm + Canastilla y Rejilla",
+  ratings: 6,
+  description:"",
+  price: "627,900",
+},
+
+{
+  id: 163,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/174308-400-400/Miniatura-doble-tanque-94x43.jpg?v=637739697373200000",
+  name: "Lavaplatos Doble Tanque 94x43cm + Canastilla y Sifón",
+  ratings: 6,
+  description:"",
+  price: "533,900",
+},
+{
+  id: 164,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/174424-400-400/lavaplatos-doble-tanque-84x56.jpg?v=637781983632200000",
+  name: "Lavaplatos Doble Tanque 84x56 cm",
+  ratings: 6,
+  description:"",
+  price: "490,900",
+},
+{
+  id: 165,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/173342-400-400/lavaplatos-doble-tanque-84x51-1.jpg?v=637625844300370000",
+  name: "Lavaplatos Doble Tanque 84x51cm",
+  ratings: 6,
+  description:"",
+  price: "471,900",
+},
+{
+  id: 166,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/172531-400-400/FOTO-1_2.jpg?v=637558310821330000",
+  name: "Lavaplatos Doble Tanque 80x43cm",
+  ratings: 6,
+  description:"",
+  price: "420,900",
+},
+{
+  id: 167,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/175560-400-400/miniatura-lavaplatos-premium-60-53cm-canastilla-y-sifon-1-08.jpg?v=637949617005570000",
+  name: "Lavaplatos Premium 60x53cm",
+  ratings: 6,
+  description:"",
+  price: "411,920",
+},
+{
+  id: 167,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/173344-400-400/lavaplatos-sencillo-satinado.jpg?v=637625870798900000",
+  name: "Lavaplatos Sencillo 59x46cm",
+  ratings: 6,
+  description:"",
+  price: "369,900",
+},
+{
+  id: 168,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/173346-400-400/lavaplatos-sencillo-brillante.jpg?v=637625873438570000",
+  name: "Lavaplatos Sencillo 59x46cm Brillante",
+  ratings: 6,
+  description:"",
+  price: "327,920",
+},
+{
+  id: 169,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/173340-400-400/lavaplatos-sencillo-57-51-empotrar-1.jpg?v=637625838651500000",
+  name: "Lavaplatos Sencillo 57x51cm",
+  ratings: 6,
+  description:"",
+  price: "230,900",
+},  
+{
+  id: 170,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/172532-400-400/FOTO-1.jpg?v=637558314072100000",
+  name: "Lavaplatos Sencillo 55x43cm",
+  ratings: 6,
+  description:"",
+  price: "220,900",
+},  
+{
+  id: 171,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/174422-400-400/lavaplatos-sencillo45x49.jpg?v=637781971550300000",
+  name: "Lavaplatos Sencillo 45x49 cm",
+  ratings: 6,
+  description:"",
+  price: "190,900",
+},  
+{
+  id: 172,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/172196-400-400/Lav-Radiante-EMPOTRAR-62x48cm-Mezc-239443_1.jpg?v=637443359240330000",
+  name: "Lavaplatos Sencillo 62x48cm",
+  ratings: 6,
+  description:"",
+  price: "126,900",
+},  
+{
+  id: 173,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/172205-400-400/Lav--Vital-Empotrar-Mezc-53-x-43cm-230172.jpg?v=637443368294800000",
+  name: "Lavaplatos Sencillo 53x43cm",
+  ratings: 6,
+  description:"",
+  price: "117,900",
+}, 
+{
+  id: 174,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://socoda.vteximg.com.br/arquivos/ids/171983-400-400/1-60x40-Sub-238940.jpg?v=637390053153700000",
+  name: "Lavaplatos Sencillo 60x40cm",
+  ratings: 6,
+  description:"",
+  price: "103,900",
+},  
+{
+  id: 175,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://mues.co/wp/wp-content/uploads/2020/11/527e667b-8823-48d3-a0e9-bf5690db6308.jpg",
+  name: "Grifería de cocina en bronce cromado extraible 42202402LWC",
+  ratings: 6,
+  description:"",
+  price: "103,900",
+},  
+{
+  id: 176,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://mues.co/wp/wp-content/uploads/2020/11/818a828f-b76d-4790-9429-9ba856225f27.jpg",
+  name: "Grifería de cocina extraible en bronce cromado 42203501CH",
+  ratings: 6,
+  description:"",
+  price: "103,900",
+},
+{
+  id: 177,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://mues.co/wp/wp-content/uploads/2020/11/3710a15a-0824-4fc2-9709-5b24ce2bc37d.jpg",
+  name: "Grifería de cocina en bronce cromado 99200110CH",
+  ratings: 6,
+  description:"",
+  price: "103,900",
+}, 
+{
+  id: 178,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://mues.co/wp/wp-content/uploads/2020/11/e0565c11-387a-420e-9731-5c028e1263af.jpg",
+  name: "Grifería de cocina en bronce cromado 802200CH",
+  ratings: 6,
+  description:"",
+  price: "103,900",
+},
+{
+  id: 179,
+  itemId: "lavaplatos01",
+  imgSrc:
+    "https://mues.co/wp/wp-content/uploads/2020/11/66d37d82-0058-4957-a16f-547070cc413e.jpg",
+  name: "Grifería en bronce cromado Cartucho cerámico 41058",
+  ratings: 6,
+  description:"",
+  price: "103,900",
+}
 ];
 
 export { MenuItems, Items };

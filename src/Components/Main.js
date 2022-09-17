@@ -10,7 +10,6 @@ import SubMenuContainer from "./SubMenuContainer";
 import CartItem from "./CartItem";
 import { useStateValue } from "./StateProvider";
 import {useHistory} from "react-router-dom"
-import Container from "./Container";
 
 function Main() {
   
@@ -19,8 +18,6 @@ function Main() {
   const [isMainData, setMainData] = useState(
     Items.filter((element) => element.itemId == "cocina01")
   );
-
-  
 
   const [{ cart, total }, dispatch] = useStateValue();
   const [totalPrice, setTotalPrice] = useState(0);
@@ -85,8 +82,6 @@ function Main() {
                   </div>
                 ))}
             </div>
-
-            
                 <div className="grid-container" >
                   {isMainData &&
                     isMainData.map((data) => (

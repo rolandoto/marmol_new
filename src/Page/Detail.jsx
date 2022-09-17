@@ -20,6 +20,7 @@ const Detailproduct =() =>{
             <div>
             <div className="image-container">
                 <img src={(result && result.imgSrc)} className="product-detail-image" />
+                
             </div>
             <div className="small-images-container">
         
@@ -28,6 +29,7 @@ const Detailproduct =() =>{
                     className={index ? 'small-image selected-image' : 'small-image'}
 
                 />
+
             </div>
             </div>
 

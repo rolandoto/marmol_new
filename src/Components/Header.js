@@ -1,14 +1,14 @@
 import {
   BarChart,
   SearchRounded,
-  ShoppingCartRounded,
 } from "@mui/icons-material";
-import React, { useEffect } from "react";
-import { useStateValue } from "./StateProvider";
+import React, { useContext, useEffect, useState } from "react";
 import {Link} from "react-router-dom"
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import UselocalStorage from "../Hooks/UselocalStorage"
+import  AutoProvider from "../PrivateRoute/AutoProvider"
 
 function Header() {
-  const [{ cart }, dispatch] = useStateValue();
 
   useEffect(() => {
     const toggleIcon = document.querySelector(".toggleMenu");
@@ -17,29 +17,36 @@ function Header() {
     });
   }, []);
 
+  const [favorite,setFavorite] =useState(UselocalStorage.Pokemons())
+
+  const {jwt} =useContext(AutoProvider)
+  
   return (
     <header>
-
       <Link to="/" >
-        <img
-          src="https://ciudadenredsas.info/mademarmol/wp-content/uploads/sites/42/2019/05/logo-final-1.png"
-          alt=""
-          className="logo"
-        />
-      </Link>
-      <div className="inputBox">
-        <SearchRounded className="searchIcon" />
-        <input type="text" placeholder="Buscar Productos" />
-      </div>
-      <div className="shoppingCart">
-        <ShoppingCartRounded className="cart" />
-        <div className={`${!cart ? "noCartItem" : "cart_content"}`}>
-          <p>{cart ? cart.length : ""}</p>
+          <img
+            src="https://ciudadenredsas.info/mademarmol/wp-content/uploads/sites/42/2019/05/logo-final-1.png"
+            alt=""
+            className="logo"
+          />
+        </Link>
+        <div className="inputBox">
+          <Link to="/Material">Materiales</Link>
         </div>
-      </div>
-      <div className="toggleMenu">
-        <BarChart className="toggleIcon"/>
-      </div>
+        <div className="shoppingCart">
+         <Link to="/Favorite" >
+          <FavoriteIcon className="cart" />
+          <div className={`${!favorite ? "noCartItem" : "cart_content"}`}>
+            <p>{favorite ? favorite.length : "2112"}</p>
+          </div>
+          </Link>
+        </div>
+        <div className="toggleMenu">
+          <BarChart className="toggleIcon"/>
+        </div>
+        <div className={jwt &&`title-account`} >
+        <span> {jwt && `${`Bienvenido ${jwt.Islogin}`}`}</span>
+        </div>
     </header>
   );
 }

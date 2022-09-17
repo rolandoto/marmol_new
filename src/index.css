@@ -31,7 +31,6 @@ img {
   max-width: 100%;
 }
 
-
 .itemImge{
     width: 115%;
     /* height: 100%; */
@@ -62,4 +61,67 @@ img{
   background-color: #FFF;
   overflow: auto;
   padding: 15px;
+}
+
+.username {
+  background: transparent;
+  border: solid 1px #b3aca7;
+  border-radius: 12px;
+  height: 2.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  margin-top: 17px;
+  color: #726659;
+}
+
+.username  {
+  padding: 8.5px 14px;
+}
+
+.password {
+  background: transparent;
+  border: solid 1px #b3aca7;
+  border-radius: 12px;
+  height: 2.1876em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  animation-name: mui-auto-fill-cancel;
+  letter-spacing: inherit;
+  animation-duration: 10ms;
+  margin-top: 17px;
+  color: #726659;
+
+}
+
+.password {
+   padding: 8.5px 14px;
+} 
+
+.button-login {
+  padding: 15px;
+  display: flex;
+  margin: auto;
+  width: 52%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17px;
+  border-radius: 11px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  max-width: 531px;
+  width: 100%;
 }
