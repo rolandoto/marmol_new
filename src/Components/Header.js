@@ -31,7 +31,7 @@ function Header() {
           />
         </Link>
         <div className="inputBox">
-          <Link to="/Material">Materiales</Link>
+         
         </div>
         <div className="shoppingCart">
          <Link to="/Favorite" >

@@ -3,9 +3,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import React, { useContext, useState } from "react";
-import { actionType } from "./reducer";
 import { useStateValue } from "./StateProvider";
-import { Items } from "./Data";
 import { useEffect } from "react";
 import {useHistory} from "react-router-dom"
 import UselocalStorage from "../Hooks/UselocalStorage"
