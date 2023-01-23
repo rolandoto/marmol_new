@@ -45,6 +45,27 @@ const MenuItems = [
     name: "Lava platos",
     imgSrc:
       "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
+  },
+  {
+    id: 8,
+    itemId: "cafe01",
+    name: "Cafe",
+    imgSrc:
+      "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
+  },
+  {
+    id: 9,
+    itemId: "deli01",
+    name: "Delonghi",
+    imgSrc:
+      "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
+  },
+  {
+    id: 10,
+    itemId: "cohelum01",
+    name: "Cohulum",
+    imgSrc:
+      "https://cdn-icons.flaticon.com/png/512/4943/premium/4943197.png?token=exp=1651938355~hmac=3b059128658083fde793c9770a471847",
   }
 ];
 
@@ -1625,7 +1646,994 @@ const Items = [
   ratings: 6,
   description:"",
   price: "103,900",
-}
+},
+{
+  id: 180,
+  itemId: "cafe01",
+  imgSrc:
+    "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE1.PNG?raw=true",
+  name: "Horno smart 5 en 1 con Tecnología Advantium de 30",
+  ratings: 6,
+  description:" Horno de empotre ce 76cm eléctrico Sistema de convección europeo para brindar la cantidad y el tiempo exacto de calor para sus alimentos Versatilidad inigualable para cocinar con un solo horno que se puede usar de cinco maneras diferentes, uselo como horno de convección, microondas, horno tostador, horno para calentar / leudar y horno de cocción de precisión con tecnología Advantium Función de cocción al vapor para sus verduras. Sistema de manijas intercambiables según el color Interior de acero inoxidable Conexión WI-FI compatible con Alexa – Google home Pantalla LCD táctil full color Voltaje 220v REQUERIMIENTOS DE INSTALACION. Cable # 10 – Toma y clavija trifásica 2 brekers de 50 Amperios",
+  price: "16.199.000",
+},
+
+  {
+    id: 181,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE2.PNG?raw=true",
+    name: "Horno smart 5 en 1 con Tecnología Advantium de 30",
+    ratings: 6,
+    description:"Horno de empotre ce 76cm eléctrico Sistema de convección europeo para brindar la cantidad y el tiempo exacto de calor para sus alimentos Versatilidad inigualable para cocinar con un solo horno que se puede usar de cinco maneras diferentes, uselo como horno de convección, microondas, horno tostador, horno para calentar / leudar y horno de cocción de precisión con tecnología Advantiu Función de cocción al vapor para sus verduras. Sistema de manijas intercambiables según el color Interior de acero inoxidable Conexión WI-FI compatible con Alexa – Google home Pantalla LCD táctil full color Voltaje 220v REQUERIMIENTOS DE INSTALACION. Cable # 10 – Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "15.599.900",
+  },
+  {
+    id: 182,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE3.PNG?raw=true",
+    name: "Horno puerta francesa de convección empotrable inteligente de 30",
+    ratings: 6,
+    description:"Horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente y agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10  Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "23.799.000",
+  },
+  {
+    id: 183,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE4.PNG?raw=true",
+    name: "Horno puerta francesa de convección empotrable inteligente de 30",
+    ratings: 6,
+    description:"Horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente y agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10 Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "23.399.000",
+  },
+  {
+    id: 184,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE4.PNG?raw=true",
+    name: "Horno puerta francesa de convección empotrable inteligente de 30",
+    ratings: 6,
+    description:"Horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente y agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10 Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "23.799.000",
+  },
+  {
+    id: 185,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE5.PNG?raw=true",
+    name: "Horno puerta francesa de convección empotrable inteligente de 30",
+    ratings: 6,
+    description:"Horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente y agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10 Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "23.399.000",
+  },
+  {
+    id: 186,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE6.PNG?raw=true",
+    name: "Horno puerta francesa de convección empotrable inteligente de 30",
+    ratings: 6,
+    description:"Horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente y agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10 Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "23.799.000",
+  },
+  {
+    id: 187,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE7.PNG?raw=true",
+    name: "Torre de hornos café con tecnología Advantium de 30",
+    ratings: 6,
+    description:"Torre horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente y agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10 Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "39,990,000",
+  },
+  {
+    id: 188,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE8.PNG?raw=true",
+    name: "Torre de hornos café con tecnología Advantium de 30",
+    ratings: 6,
+    description:"Torre horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente y agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10 Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "38,990,000",
+  },
+  {
+    id: 189,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE9.PNG?raw=true",
+    name: "Torre de hornos café con tecnología Advantium de 30",
+    ratings: 6,
+    description:"Torre horno de empotre French Door de 76cm eléctrico Diseño de puerta francesa del horno le ofrece una experiencia ergonómica y cómoda dado que las dos puertas se abren a la misma vez Sistema de convección al interior para cocinar sus recetas uniformemente  agilizar el proceso de cocción Función de horneo y asado por convección Sistema de manijas intercambiables según color Conexión WI-FI compatible con Alexa – Google home Pantalla LCD full color Voltaje 220v REQUERIMIENTOS DE INSTALACION Cable # 10 Toma y clavija trifásica 2 brekers de 50 Amperios",
+    price: "30,990,000",
+  },
+  {
+    id: 190,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE10.PNG?raw=true",
+    name: "Estufa a gás Café de 36",
+    ratings: 6,
+    description:"Cubierta de acero gas natural 91cm encendido eléctrico a 110v Quemador Tri-Ring de 20.000 Btus para dorar y saltear a la perfección Perillas resistentes con retroiluminación LED blanca y sistema de parrillas continuas le dan un toque profesional a tu cocina. Perillas con cepillado en bronce para mayor estica profesional quemadores sellados para mejor sistema de limpieza Quemador triple anillo para cocción a fuego rápido o fuego lento",
+    price: " 8,599,000",
+  },
+  {
+    id: 191,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE11.PNG?raw=true",
+    name: "Estufa de inducción con control táctil inteligente de 36",
+    ratings: 6,
+    description:"Cubierta inducción eléctrica de 91cm Prepara tus alimentos con Gourmet Guided Cooking que ajusta fácilmente las temperaturas de cocción. Cinco elementos de cocción para cocinar como un profesional Tecnología innovadora con función WI-FI Hervir agua en un instante gracias a su poder de 3700 vatios en tan solo 101 segundos Controles táctiles que le permite controlar el calor a un solo toque Sistema de bloqueo de panel para mayor seguridad Voltaje 220v",
+    price: " 14.149.000",
+  },
+  {
+    id: 192,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE12.PNG?raw=true",
+    name: "Lavavajillas interior de acero inoxidable 70 pzs",
+    ratings: 6,
+    description:"Lavavajillas capacidad de 70 piezas y sistema de lavado a media carga Sistema de lavado con mas de 90 chorros de agua para mayor eficiencia de lavado y un brazo rociador cuádruple reversible Flexibilidad de carga con dientes plegables para artículos con forma únicas y un tercer rack mayor capacidad de carga Rack ajustable para mayor comodidad de arriba hacia abajo o viceversa para colocar platos grandes o botellas Ahorre tiempo con la opción de vapor para desinfección en un 99.9% libre de bacterias y aflojar la suciedad difícil antes de empezar el ciclo seleccionado Luz indicadora del proceso del ciclo 5 ciclos de lavado, y 12 opciones adicionales Sistema de filtración de agua con triturador incorporado Voltaje 120v",
+    price: "10.889.000",
+  },
+  {
+    id: 193,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE13.PNG?raw=true",
+    name: "Refrigerador inteligente puerta francesa de 787lts",
+    ratings: 6,
+    description:"Nevecon tipo French Door con dispensador automático de hielo y agua caliente Tecnología Twin-chill que ayudan a la conservación de alimentos frescos en el refrigerados y congelador gracias a sus evaporadores Cajones de ancho completo para frutas y verduras con temperatura controlada Iluminación LED al interior para encontrar mas fácil los alimentos Configuración Precise Fill para un llenado exacto de agua a un solo toque Configuración WI-FI, utilice comando de voz para precalentamiento de agua de su refrigerador Ajuste turbo Cool para un enfriamiento homogéneo Filtro de agua para ayudar a eliminar bacterias e impurezas Alarma de puerta abierta, pantalla LCD full color Voltaje 120v",
+    price: "28.899.000",
+  },
+  {
+    id: 194,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE14.PNG?raw=true",
+    name: "Centro de bebidas Café",
+    ratings: 6,
+    description:"Centro de bebidas con capacidad de 14 botellas o 126 latas Enfriador de bebidas a la perfección con iluminación LED al interior de la unidad Almacenamiento de botellas MAGNUN enfría hasta 4 botellas de vino de 1.5lts sin rayar la etiqueta Tecnología inteligente que puedes controlar desde dispositivos móviles con WI-FI incorporado Control de temperatura ajustable Sistema de alarma de puerta abierta Puerta de cristal con filtro UV Voltaje 120v",
+    price: "17.099.000",
+  },
+  {
+    id: 195,
+    itemId: "cafe01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/CAFE/CAFE15.PNG?raw=true",
+    name: "Centro de bebidas Café",
+    ratings: 6,
+    description:"Cajón refrigerador de 2 temperaturas Enfriador de bebidas a la perfección con iluminación LED al interior de la unidad Tecnología inteligente que puedes controlar desde dispositivos móviles con WI-FI incorporado Control de temperatura ajustable Sistema de alarma de puerta abierta Puerta de cristal con filtro UV Voltaje 120v",
+    price: "16.499.000",
+  },
+
+
+  {
+    id: 196,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo1.PNG?raw=true",
+    name: "MAQUINA DE CAFE AUTOMÁTICA",
+    ratings: 6,
+    description:"Presión profesional a 15 bares  Panel control táctil Prepara diferentes bebidas con el toque de un botón Espresso, Latte ,Cappuccino y Macchiato Prepara un perfecto cappuccino con la densidad y cremosidad que proporciona Lattecrema System Molino cónico integrado con 13 niveles de molienda Sistema EASY TO CLEAN, botón de limpieza que realiza un ciclo de lavado automático Infusor directo y removible patentado Enjuague y descalcificación automática Depósito extraíble de agua 1,8 litros con filtro Jarra para leche Ahorro de energía clasificación tipo A Calienta tazas integrado Bandeja de goteo extraíble",
+    price: "9.999.990",
+  },
+  {
+    id: 197,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo2.PNG?raw=true",
+    name: "MAQUINA DE CAFE AUTOMÁTICA",
+    ratings: 6,
+    description:"Presión profesional a 15 bares Panel digital/control de dial Prepara diferentes bebidas con el toque de un botón Espresso, Latte ,Cappuccino y Macchiato Prepara un perfecto cappuccino con la densidad y cremosidad que proporciona Lattecrema System Molino cónico integrado con 13 niveles de molienda Sistema EASY TO CLEAN, botón de limpieza que realiza un ciclo de lavado automático Infusor directo y removible patentado Enjuague y descalcificación automática Depósito extraíble de agua 1,8 litros con filtro Jarra para leche Ahorro de energía clasificación tipo A Calienta tazas integrado Bandeja de goteo extraíble",
+    price: "8.499.990",
+  },
+  {
+    id: 198,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo3.PNG?raw=true",
+    name: "MAQUINA DE CAFE AUTOMÁTICA",
+    ratings: 6,
+    description:"Panel de control con botones y un interruptor central para configurar las funciones Molino de café integrado para elegir hasta 13 grados de molienda, con tapa de protección de aroma Selección de aroma de más fuerte a más delicada y también temperatura del agua ECO de ahorro de energía para garantizar el menor consumo de energía Sistema cappuccino que combina automáticamente vapor, aire y leche para hacer una rica y cremosa espuma.",
+    price: "6.999.990",
+  },
+  {
+    id: 199,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo4.PNG?raw=true",
+    name: "MAQUINA DE CAFE AUTOMÁTICA",
+    ratings: 6,
+    description:"Presión profesional de 19 bares Tecnología de molienda de sensores Dureza del agua programable Estación de apisonamiento inteligente Control activo de temperatura Sistema avanzado de Latte Tamper de Café incorporado Bandeja de goteo extraíble con indicador de nivel. Calentador de tazas integrado Función de ahorro de energía Función Stand-by Depósito de agua extraíble 400 ml Filtro de agua Bandeja de goteo extraíble con indicador de nivel",
+    price: "5.999.990",
+  },
+  {
+    id: 200,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo5.PNG?raw=true",
+    name: "MAQUINA DE CAFE AUTOMÁTICA",
+    ratings: 6,
+    description:"Presión profesional de 19 bares Tecnología de molienda de sensores Dureza del agua programable Estación de apisonamiento inteligente Control activo de temperatura Sistema avanzado de Latte Tamper de Café incorporado Bandeja de goteo extraíble con indicador de nivel. Calentador de tazas integrado Función de ahorro de energía Función Stand-by Depósito de agua extraíble 2 lts Filtro de agua Bandeja de goteo extraíble con indicador de nivel",
+    price: "5.999.990",
+  },
+  {
+    id: 201,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo6.PNG?raw=true",
+    name: "MAQUINA DE CAFE AUTOMÁTICA",
+    ratings: 6,
+    description:"15 bares de presión para resultados profesionales Cappuccino System Filtro doble para PODS / Café molido Jarra para leche integrada Sistema Easy to Clean Ajuste de apagado y encendido automático Depósito de agua extraíble de 1 lt Bandeja extraíble de con indicador de nivel de agua Filtro de agua Sistema anti derrames Bandeja para tazas Filtro de agua Ahorro de energía clasificación tipo A Función automática “stand-by”",
+    price: "3.249.990",
+  },
+  {
+    id: 202,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo7.PNG?raw=true",
+    name: "MAQUINA DE ESPRESSO",
+    ratings: 6,
+    description:"15 bares de presión Sistema Cappuccino ajustable Se puede utilizar ya sea con café molido o con los pods Easy Serving Espresso Función de stand-by automático para ahorro de energía Deposito de agua de 1,1 litros Agua caliente para el té de frutas y hierbas Calentador de tazas integrado Personalización de tipos de café Bandeja de goteo extraíble con indicador de nivel de agua Sistema Anti-goteo",
+    price: "1.799.990",
+  },
+  {
+    id: 203,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo8.PNG?raw=true",
+    name: "MAQUINA DE EXPRESO",
+    ratings: 6,
+    description:"15 bares de presión Sistema Cappuccino ajustable Se puede utilizar ya sea con café molido o con los pods  Easy Serving Espresso Función de stand-by automático para ahorro de energía Deposito de agua de 1,1 litros Agua caliente para el té de frutas y hierbas Calentador de tazas integrado Personalización de tipos de café  Bandeja de goteo extraíble con indicador de nivel de agua Sistema Anti-goteo”",
+    price: "1.799.990",
+  },
+  {
+    id: 204,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo9.PNG?raw=true",
+    name: "MAQUINA DE EXPRESO",
+    ratings: 6,
+    description:"15 bares de presión Sistema Cappuccino ajustable Se puede utilizar ya sea con café molido o con los pods Easy Serving Espresso Función de stand-by automático para ahorro de energía  Deposito de agua de 1,5 litros Agua caliente para el té de frutas y hierbas  Calentador de tazas integrado  Personalización de tipos de café  Bandeja de goteo extraíble con indicador de nivel de agua Sistema Anti-goteo",
+    price: "1.799.990",
+  },
+  {
+    id: 205,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo10.PNG?raw=true",
+    name: "MAQUINA DE EXPRESO",
+    ratings: 6,
+    description:"15 bares de presión para un resultado profesional Tres filtros : para espresso ,dos espressos y pods Panel de control de fácil uso Sistema tradicional de cappuccino Realiza dos tazas de café Depósito de agua extraíble de 1,3 litros Easy Serving Espresso: Permite el uso de pods y café molido Calentador de tazas integrado Surtidor de agua caliente para realizar té Diseño en acero inoxidable Bandeja de goteo extraíble",
+    price: "1.299.990",
+  },
+  {
+    id: 206,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo11.PNG?raw=true",
+    name: "MAQUINA DE EXPRESO",
+    ratings: 6,
+    description:"15 bares de presión para un resultado profesional Tres filtros : para espresso ,dos espressos y pods Panel de control de fácil uso Sistema tradicional de cappuccino Realiza dos tazas de café Depósito de agua extraíble de 1,3 litros Easy Serving Espresso: Permite el uso de pods y café molido Calentador de tazas integrado  Surtidor de agua caliente para realizar té  Diseño en acero inoxidable  Bandeja de goteo extraíble",
+    price: "999.999",
+  },
+  {
+    id: 207,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo12.PNG?raw=true",
+    name: "CAFETERA TODO EN UNO",
+    ratings: 6,
+    description:"15 bares de presión Realiza café de manera tradicional y bebidas como espresso, cappuccino y café latte Sistema Thermoblock Sistema complete frontal access: permite añadir agua y café con facilidad, sin mover la jarra Temporizador digital programable de 24 horas Sistema tradicional de cappuccino Filtro de agua Selector de intensidad de café  Jarra de vidrio con capacidad de 10 tazas Placa calentadora antiadherente Bandeja de goteo extraíble",
+    price: "1.999.990",
+  },
+  {
+    id: 208,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo13.PNG?raw=true",
+    name: "CAFETERA DE GOTEO",
+    ratings: 6,
+    description:"Timer digital programable de 24 horas Capacidad de 14 tazas Indicador de frescura Filtro de agua Placa calentadora antiadherente Advertencia de descalcificación Botón de aroma Fabricación en acero inoxidable",
+    price: "522.990",
+  },
+  {
+    id: 209,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo14.PNG?raw=true",
+    name: "MOLINO",
+    ratings: 6,
+    description:"Molinillo cónico en acero inoxidable Pantalla LCD digital18 niveles de molienda Tres niveles de resistencia ajustables: ligeras, normales y fuertes Dispensa directamente en porta filtro almacenamiento Capacidad de 14 tasas Depósito de granos con 350 g / 12-Oz capacidad Fácil la limpieza Acabado en acero inoxidable",
+    price: "1.449.990",
+  },
+  {
+    id: 210,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo15.PNG?raw=true",
+    name: "MOLINO",
+    ratings: 6,
+    description:"Encendido - Apagado Capacidad para 12 tasas Contenedor de café transparente y desmontable Selector de tasas que permite moler la cantidad necesaria Selector de molienda de fina, media a gruesa",
+    price: "479.990",
+  },
+  {
+    id: 211,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo16.PNG?raw=true",
+    name: "MOLINO",
+    ratings: 6,
+    description:"Encendido - Apagado Capacidad para 12 tasas Contenedor de café transparente y desmontable Selector de tasas que permite moler la cantidad necesaria Selector de molienda de fina, media a gruesa",
+    price: "549.990",
+  },
+  {
+    id:212,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo17.PNG?raw=true",
+    name: "PANINI",
+    ratings: 6,
+    description:"Pantalla LCD 2 funciones de cocción: Barbacoa, parrilla Diseño en acero inoxidable Superficie de cocción (14.5 x 9 cms) Revestimiento cerámico Antiadherente Bandejas removibles y de fácil limpieza Mangos aislados térmicamente Bloqueo de seguridad Sistema de drenaje de aceite Aplicación para ayudar a cocinar el proceso de cocción LINEA LIVENZZA",
+    price: "2.399.990",
+  },
+  {
+    id:213,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo18.PNG?raw=true",
+    name: "PANINI",
+    ratings: 6,
+    description:"Parrilla Compacta 3 en 1 Tres juegos de placas (parrilla-sándwiches-waffles) Bandeja de goteo integrada Placas intercambiables antiadherentes Rendimiento de cocción que distribuye el calor rápida y uniformemente Mangos aislados térmicamente Sellado perfecto en Sandwiches Placas profundas para waffles perfectos Placas fundidas a presión Funcionamiento a 50/60hz",
+    price: "749.990",
+  },
+  {
+    id:214,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo19.PNG?raw=true",
+    name: "MULTIFREIDORA",
+    ratings: 6,
+    description:"Doble sistema de calefacción: doble ventilador para grill simultáneo y cocción por convección forzada por ventilador Fácil de limpiar: la tapa, la paleta y el tazón son removibles y aptos para lavavajillas 3 niveles de control de potencia Paleta mezcladora desmontable Tazón con un revestimiento de cerámica antiadherente y antirayado Temporizador extraíble Paredes Cool TouchProceso de mezcla automática",
+    price: "1.689.990",
+  },
+  {
+    id:215,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo21.PNG?raw=true",
+    name: "HORNO DE CONVECCIÓN",
+    ratings: 6,
+    description:"Cocción por convección Tres áreas de cocción Ocho (8) funciones de cocción: tostada, Hornear, Convección, Asar/ Grill, Descongelar, Pizza, Galletas Puerta de cristal doble Pantalla digital Capacidad interna de 24 litros Luz interna Apagado automático Parrillas antiadherentes LINEA LIVENZZA",
+    price: "2.499.990",
+  },
+  {
+    id:216,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo21.PNG?raw=true",
+    name: "HORNO DE CONVECCIÓN",
+    ratings: 6,
+    description:"Puerta de cristal doble EL SISTEMA DE BLOQUEO DE CALOR, mantiene la temperatura en el interior mientras emite hasta un 30% menos de calor en la puerta de vidrio. 40% MÁS RÁPIDO COCCIÓN CON CONVECCIÓN Precalienta hasta un 60% más rápido que los hornos convencionales de tamaño normal Función de recalentamiento Cavidad interna antiadherente Pantalla LCD Luz interior  Apagado automático  Aplicación de recetas Funcionamiento 60hz",
+    price: "2.499.990",
+  },
+  {
+    id:218,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo22.PNG?raw=true",
+    name: "HORNO DE CONVECCIÓN",
+    ratings: 6,
+    description:"Cocina por convección, trabaja con un ventilador que circula el aire caliente para distribuir el calor mas rápido y uniformemente Kit rosticero Fácil de separar, cargar y limpiar si se utiliza junto con la bandeja de hornear Gran espacio interior Prepara una comida para toda la familia Puede cocinar 2 pizzas de 12”",
+    price: "699.990",
+  },
+  {
+    id:219,
+    itemId: "deli01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Delopnghi/delo23.PNG?raw=true",
+    name: "BATERÍA DE OLLAS 10 PIEZAS",
+    ratings: 6,
+    description:"Cocina por convección, trabaja con un ventilador que circula el aire caliente para distribuir el calor mas rápido y uniformemente Kit rosticero Fácil de separar, cargar y limpiar si se utiliza junto con la bandeja de hornear Gran espacio interior Prepara una comida para toda la familia Puede cocinar 2 pizzas de 12”",
+    price: "1.499.990",
+  },
+
+  //Cohelum
+  {
+    id:220,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe1.PNG?raw=true",
+    name: "CRONOS",
+    ratings: 6,
+    description:"Lavaplatos construido a Mano en acero Inoxidable terminado polichado Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.5 mm Medidas Internas: 730mm*330mm Profundidad: 245mm Medidas Externas: 790mm x 500mm Accesorios Incluidos: Cobertores en cristal- Canastillas y sifones en acero inoxidable-Cobertor Sifón-Tabla en Teca-Canastilla Acero- Styler Drain- Dispensador Jabón- Grifería.",
+    price: "6.499.900",
+  },
+  {
+    id:221,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe2.PNG?raw=true",
+    name: "PD7843SBH “ZEUS”",
+    ratings: 6,
+    description:"Lavaplatos construido a Mano en acero Inoxidable terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.2 mm Medidas Internas: 450mm*400 mm/450mm*400mm Profundidad: 203m Medidas Externas: 860mm x 490mm Accesorios: Canastillas y sifones en acero inoxidable",
+    price: "4.150.000",
+  },
+  {
+    id:222,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe3.PNG?raw=true",
+    name: "LETO",
+    ratings: 6,
+    description:"Lavaplatos construido a Mano en acero Inoxidable terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.2 mm Medidas Internas: 450mm*400 mm/450mm*400mm Profundidad: 203m Medidas Externas: 860mm x 490mm Accesorios: Canastillas y sifones en acero inoxidable",
+    price: "2.999.900",
+  },
+  {
+    id:223,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe4.PNG?raw=true",
+    name: "VENUS",
+    ratings: 6,
+    description:"Lavaplatos construido a Mano en acero Inoxidable terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.2 mm  Medidas Internas: 340mm*400 mm/340mm*400mm Profundidad: 203mm Medidas Externas: 740mm x 440mm Accesorios: Canastillas y sifones en acero inoxidable",
+    price: "3.500.000",
+  },
+  {
+    id:224,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe5.PNG?raw=true",
+    name: "NEW ARTEMIS",
+    ratings: 6,
+    description:"Lavaplatos construido en acero terminado polichado Tipo de Acero: 304ss Calibre: 18 mm  Grosor 1.0 mm Medidas Internas: 340mm*400 mm/340mm*400mm Profundidad: 215mm Medidas Externas: 740mm x 440mm Accesorios: Canastillas y sifones en acero inoxidable",
+    price: "1.699.900",
+  },
+  {
+    id:225,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe6.PNG?raw=true",
+    name: "POSEIDON",
+    ratings: 6,
+    description:"Lavaplatos construido en acero terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Inoxidable Grosor 1.0 m  Medidas Internas 450mm*400 mm/450mm*400mm Profundidad: 215mm Medidas Externas: 860mm x 490mm Accesorios: Canastillas y sifones en acero inoxidable",
+    price: "1.899.900",
+  },
+  {
+    id:226,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe7.PNG?raw=true",
+    name: "LOTUS",
+    ratings: 6,
+    description:"Lavaplatos construido a Mano en acero Inoxidable terminado polichado. Tipo de Acero: 304ss  Calibre: 18 mm Grosor 1.0 mm Medidas Internas:  550mm*400 mm Profundidad: 203mm Medidas Externas: 600mm x 450mm Accesorios: Canastilla y sifón en acero inoxidable",
+    price: "1.949.900",
+  },
+  {
+    id:227,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe8.PNG?raw=true",
+    name: "ORION",
+    ratings: 6,
+    description:"Lavaplatos construido a Mano en acero Inoxidable terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.0 mm  Medidas Internas: 550mm*400 mm Profundidad: 203mm Medidas Externas: 600mm x 450mm  Accesorios: Canastilla y sifón en acero inoxidable",
+    price: "2.649.900",
+  },
+  {
+    id:228,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe9.PNG?raw=true",
+    name: "HERA",
+    ratings: 6,
+    description:" Lavaplatos construido en acero Inoxidable Lavaplatos terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.0 mm Medidas Internas: 4000mm*450mm Profundidad: 215mm  Medidas Externas: 440mm x 490mm Accesorios: Canastillas y sifones en acero inoxidable",
+    price: "999.900",
+  },
+  {
+    id:229,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe10.PNG?raw=true",
+    name: "NEW APOLO",
+    ratings: 6,
+    description:"Lavaplatos construido en acero terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.5 mm Medidas Internas: 570 mm*400 mm*228mm Profundidad: 228mm Medidas Externas: 620mm x 470mm Accesorios: Canastillas y sifón en acero inoxidable",
+    price: " 1.549.900",
+  },
+  {
+    id:230,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe11.PNG?raw=true",
+    name: "NEW EROS",
+    ratings: 6,
+    description:"Lavaplatos construido en acero terminado polichado.  Lavaplatos construido en acero terminado polichado.",
+    price: "1.599.900",
+  },
+  {
+    id:231,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe12.PNG?raw=true",
+    name: "JUPITER",
+    ratings: 6,
+    description:"Lavaplatos construido en acero Inoxidable terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.2 mm  Medidas Internas:  400mm*800 mm Profundidad: 203 mm Medidas Externas: 450mm x 850mm Accesorios: Canastillas y sifones en acero inoxidable",
+    price: "1.949.900",
+  },
+  {
+    id:232,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe13.PNG?raw=true",
+    name: "HELENA FSP001",
+    ratings: 6,
+    description:"Especificaciones: Grifos de cocina Descendente Acabado: níquel cepillado. Material de la boquilla: acero inoxidable. Cabezal del rociador: plástico ABS. Material del mango: aleación de zinc. Válvula: Válvula de cerámica. Aireador: plástico ABS. Temperatura de funcionamiento: 0 a 100 Grados Modo de agua: Stream. Función de agua: mezcla caliente y fría",
+    price: "1.799.900",
+  },
+  {
+    id:233,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe14.PNG?raw=true",
+    name: "AFRODITA FS06 BRUSHED",
+    ratings: 6,
+    description:"",
+    price: "949.900",
+  },
+  {
+    id:234,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe15.PNG?raw=true",
+    name: "PERSEFONE FS07 BRUSHED",
+    ratings: 6,
+    description:"",
+    price: "1.299.900",
+  },
+  {
+    id:235,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe16.PNG?raw=true",
+    name: "HADA FC05 NEGRA",
+    ratings: 6,
+    description:"",
+    price: "1.399.900",
+  },
+  {
+    id:236,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe17.PNG?raw=true",
+    name: "ONIX FC04 NEGRO",
+    ratings: 6,
+    description:"",
+    price: "1.849.900",
+  },
+  {
+    id:237,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe18.PNG?raw=true",
+    name: "AURORA FC02 BRONZE",
+    ratings: 6,
+    description:"",
+    price: "1.649.900",
+  },
+  {
+    id:238,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe18.PNG?raw=true",
+    name: "VITORIA FC03 ORO",
+    ratings: 6,
+    description:"",
+    price: "1.649.900",
+  },
+  {
+    id:239,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe19.PNG?raw=true",
+    name: "VITORIA FC03 ORO",
+    ratings: 6,
+    description:"",
+    price: "1.649.900",
+  },
+  {
+    id:240,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe20.PNG?raw=true",
+    name: "ATLAS",
+    ratings: 6,
+    description:"Pulsador Neumático a Mesón Aséptico construido en Acero Inoxidable Potencia 375Watts - 1⁄2 Hp Velocidad de giro 2800 RPM Voltaje 120 Volts/ 60 Hz Consumo Eléctrico 2.25 AMP Motor DC Permanente Swich de Reset manual  Protección de sobrecalentamiento  Protector sobre carga energía.  Medidas Externas 360mm*135mm  Diámetro De sifón 114mm  Peso 3,7 kgs",
+    price: "529.900",
+  },
+  {
+    id:241,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe21.PNG?raw=true",
+    name: "Soap Dispenser SO02",
+    ratings: 6,
+    description:" Cabezal pieza única Diseño Mejorado Tanque plástico alta densidad Mayor Capacidad Mayor Altura Mejor desempeño",
+    price: "249.900",
+  },
+  {
+    id:242,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe22.PNG?raw=true",
+    name: "Soap Dispenser SO03",
+    ratings: 6,
+    description:" Cabezal pieza única Diseño Mejorado Tanque plástico alta densidad Mayor Capacidad Mayor Altura Mejor desempeño",
+    price: "299.900",
+  },
+  {
+    id:243,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe23.PNG?raw=true",
+    name: "Soap Dispenser SO04",
+    ratings: 6,
+    description:" Cabezal pieza única Diseño Mejorado Tanque plástico alta densidad Mayor Capacidad Mayor Altura Mejor desempeño",
+    price: "299.900",
+  },
+  {
+    id:244,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe24.PNG?raw=true",
+    name: "STYLER DRAIN RQ001",
+    ratings: 6,
+    description:" Accesorio construido en acero Inoxidable terminado polichado. Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.2 mm Medidas Externas: 400mm x 340mm",
+    price: "189.900",
+  },
+  {
+    id:245,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe25.PNG?raw=true",
+    name: "Canastilla Acero BX001",
+    ratings: 6,
+    description:"Accesorio construido en acero terminado polichado.Tipo de Acero: 304ss Calibre: 18 mm Grosor 1.2 mm",
+    price: "349.900",
+  },
+  {
+    id:246,
+    itemId: "cohelum01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Cohelum/cohe26.PNG?raw=true",
+    name: "Tabla TM001",
+    ratings: 6,
+    description:"Accesorio construido en Madera Teca 3 cm Alta resistencia a la humedad",
+    price: "349.900",
+  },
+
+  //Airon
+  {
+    id:247,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon1.PNG?raw=true",
+    name: "Campana Down draft 90 cm",
+    ratings: 6,
+    description:"Campana Down draft de 90 cm de ancho Vidrio templado Negro Control táctil deslizante AYD-033 Luz led rectangular LED 2*1,5w Capacidad absorción 1000 m3/h Cuatro (4) velocidades ElevaciónAutomática Incluye filtro de carbón Trampas anti grasas en aluminio Acero inoxidable Funcionamiento:110VFrecuencia:60Hz",
+    price: "5.782.000",
+  },
+  {
+    id:248,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon2.PNG?raw=true",
+    name: "Campana de isla 50 cm",
+    ratings: 6,
+    description:"Campanas de isla de 50 cm Vidrio Recto de seguridad negro PanelLEDTouchcontrolAYD-051 Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico LámparasLED2*1.5W1*5 Filtros antigrasa en aluminio Filtrodecarbónactivo Funcionamiento: 110V Frecuencia: 60Hz Revisar esquemas de empotre en el manual de instalación del producto",
+    price: "3.097.000",
+  },
+  {
+    id:249,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon3.PNG?raw=true",
+    name: "Campana de isla cilíndrica 41 cm",
+    ratings: 6,
+    description:"Campanas de isla de 41 cm Colores: negro, blanco y naranja Versión filtrante  PanelLEDTouchcontrol Capacidad absorción 750 m3/h Tres (3) velocidades Lámparas LED 12v 8W Filtros antigrasa en aluminio Filtro de malla Guayadeanclajede1.80cm Funcionamiento: 110V Frecuencia: 60Hz Revisaresquemasdeempotreenelmanualde instalación del producto",
+    price: "4.785.000",
+  },
+  {
+    id:250,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon4.PNG?raw=true",
+    name: "Campana de isla cilíndrica 41 cm",
+    ratings: 6,
+    description:"Campanas de isla de 41 cm Colores: negro, blanco y naranja Versión filtrante  PanelLEDTouchcontrol Capacidad absorción 750 m3/h  Tres (3) velocidades Lámparas LED 12v 8W Filtros antigrasa en aluminio  Filtro de malla  Guayadeanclajede1.80cm Funcionamiento: 110V Frecuencia: 60Hz Revisaresquemasdeempotreenelmanualde instalación del producto",
+    price: "4.785.000",
+  },
+  {
+    id:251,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon5.PNG?raw=true",
+    name: "Campana de isla cilíndrica 41 cm",
+    ratings: 6,
+    description:"Campanas de isla de 41 cm Colores: negro, blanco y naranja Versión filtrante  PanelLEDTouchcontrol  Capacidad absorción 750 m3/h Tres (3) velocidades Lámparas LED 12v 8W Filtros antigrasa en aluminio Filtro de malla Guayadeanclajede1.80cm Funcionamiento: 110V Frecuencia: 60Hz Revisaresquemasdeempotreenelmanualde instalación del producto",
+    price: "4.785.000",
+  },
+  {
+    id:252,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon6.PNG?raw=true",
+    name: "Campana de isla cilíndrica 41 cm",
+    ratings: 6,
+    description:"Campanasdeislade90cm Vidrio negro de seguridad PanelLEDTouchcontrol  Capacidad absorción 750 m3/h Tres (3) velocidades Lámparas LED 2*1.5W Guayas de anclaje de 1.80mts Trampas antigrasa en aluminio lavables Filtrodecarbónactivo Funcionamiento: 110V Frecuencia: 60Hz",
+    price: "4.539.000",
+  },
+  {
+    id:253,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon7.PNG?raw=true",
+    name: "Campana de isla 90 cm",
+    ratings: 6,
+    description:"Campanas de isla de 90 cm Vidrio negro PanelLEDTouchcontrolAYD-051 Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparas LED 6*1.5W Ducto extensible2*5 Trampas antigrasa en aluminio Filtro de carbón activo Funcionamiento: 110V Frecuencia: 60Hz",
+    price: "3.820.000",
+  },
+  {
+    id:254,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon8.PNG?raw=true",
+    name: "Campana de pared 60 cm",
+    ratings: 6,
+    description:"Campana de pared 60 cm Vidrio cuadrado de seguridad Capacidad absorción 1000 m3/h Tres (3) velocidades Switch eléctrico Lámparas Halógenas 3*1 W Filtro de carbón activo Medida del ducto: 93 cm (No extensible) Una (1) trampa antigrasa en aluminio Funcionamiento:110VFrecuencia:60Hz",
+    price: "4.069.000",
+  },
+  {
+    id:255,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon9.PNG?raw=true",
+    name: "Campana de pared 75 cm",
+    ratings: 6,
+    description:"Campana de pared 75 cm Vidrio cuadrado de seguridad Capacidad absorción 1000 m3/h Tres (3) velocidades Switch eléctrico Lámparas Halógenas 3*1 W Filtro de carbón activo Medida del ducto: 93 cm (No extensible) Una (1) trampa antigrasa en aluminio Funcionamiento: 110V Frecuencia: 60Hz Incluye Ducto exterior Revisar esquemas de empotre en el manual de instalación del producto",
+    price: "4.318.000",
+  },
+  {
+    id:256,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon10.PNG?raw=true",
+    name: "Campana de pared 90 cm",
+    ratings: 6,
+    description:"Campana de pared 90 cm Vidrio cuadrado de seguridad Capacidad absorción 1000 m3/h Tres (3) velocidades Switch eléctrico Lámparas Halógenas 3*1 W Filtro de carbón activo Medida del ducto: 93 cm (No extensible) Una (1) trampa antigrasa en aluminio Funcionamiento: 110V Frecuencia: 60Hz No Incluye Ducto exterior Revisar esquemas de empotre en el manual de instalación del producto",
+    price: "4.401.000",
+  },
+  {
+    id:257,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon11.PNG?raw=true",
+    name: "Campana de isla 90 cm",
+    ratings: 6,
+    description:"Campana de isla de 90 cm de ancho Tipo curvada Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparashalógenas4*20W Filtro de carbón activo Ducto extensible de 68 cm a 110 cm Dos (2) trampas antigrasas en aluminio Funcionamiento:110VFrecuencia:60Hz ",
+    price: "2.999.000",
+  },
+  {
+    id:258,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon13.PNG?raw=true",
+    name: "Campana de pared 60 cm",
+    ratings: 6,
+    description:"Campana de pared 60 cm Vidrio curvo de seguridad Capacidad absorción 700 m3/h  Tres (3) velocidades Switch eléctrico Lámparashalógenas2*20W Filtro de carbón activo  Ductoextensiblede60cma98cm Una (1) Trampa antigrasa en aluminio Funcionamiento:110V Frecuencia: 60Hz",
+    price: "1.685.000",
+  },
+  {
+    id:259,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon14.PNG?raw=true",
+    name: "Campana de pared 60 cm",
+    ratings: 6,
+    description:"Campana de pared 75 cm Vidrio curvo de seguridad Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparashalógenas2*20W Filtro de carbón activo Ducto extensible de 60 cm a 98 cm Una (1) Trampa antigrasa en aluminio Funcionamiento:110VFrecuencia:60Hz",
+    price: "2.212.000",
+  },
+  {
+    id:260,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon15.PNG?raw=true",
+    name: "Campana de pared 90 cm",
+    ratings: 6,
+    description:"Campanas de pared 90 cm Vidrio curvo de seguridad Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparas halógenas 2*20W Filtro de carbón activo Ducto extensible de 60 cm a 98 cm  Una (1) Trampa antigrasa en aluminio Funcionamiento: 110V Frecuencia: 60Hz",
+    price: "2.436.000",
+  },
+  {
+    id:261,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon16.PNG?raw=true",
+    name: "Campana de pared 90 cm",
+    ratings: 6,
+    description:"Campana de pared de 90 cm Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparas Halogenas 2*20 W2 Filtros de carbón activo 3 Filtros de Aluminio Funcionamiento: 110V Frecuencia: 60Hz",
+    price: "2.784.000",
+  },
+  {
+    id:262,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon17.PNG?raw=true",
+    name: "Campana de pared 90 cm",
+    ratings: 6,
+    description:"Campana de isla de 90 cm Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparas Halógenas 4*20 W 2 Filtros de carbón activo 3 Filtros de Aluminio Funcionamiento:110VFrecuencia:60Hz",
+    price: "4.396.000",
+  },
+  {
+    id:263,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon18.PNG?raw=true",
+    name: "Campana de pared extraíble 60 cm",
+    ratings: 6,
+    description:"Campana de mueble extraíble 60cm de ancho Versión filtrante Dos velocidades Control: Interruptor basculante  Capacidad de extracción 350 m3/h Filtros de carbón activo trampas antigrasas en aluminio lavables Fabricada en acero inoxidable Lámparas incandescentes 2*40W Funcionamiento: 110V Frecuencia: 60Hz",
+    price: " 999.000",
+  },
+  {
+    id:264,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon19.PNG?raw=true",
+    name: "Campana de pared extraíble 90 cm",
+    ratings: 6,
+    description:"Campana de mueble extraíble 90 cm de ancho Versión filtrante Dos velocidades Control: Interruptor basculante Capacidad de extracción 250 m3/h Filtros de carbón activo trampas antigrasas en aluminio lavables Fabricada en acero inoxidable Lámparasincandescentes2*40W Funcionamiento: 110V Frecuencia: 60Hz",
+    price: "1.174.000",
+  },
+  {
+    id:265,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon20.PNG?raw=true",
+    name: "Campana de mueble 90 cm",
+    ratings: 6,
+    description:"",
+    price: "1.207.000",
+  },
+  {
+    id:266,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon21.PNG?raw=true",
+    name: "Campana de pared 120 cm",
+    ratings: 6,
+    description:"Campana de pared de 120 cm Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparas Halógenas 2*20 W 2 Filtros de carbón activo 4 Filtros de Aluminio Funcionamiento: 110V Frecuencia: 60Hz",
+    price: "4.250.000",
+  },
+  {
+    id:267,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon22.PNG?raw=true",
+    name: "Campana de pared 120 cm",
+    ratings: 6,
+    description:"Campana de isla de 120 cm Capacidad absorción 700 m3/h Tres (3) velocidades Switch eléctrico Lámparas Halógenas4*20W 2 Filtros de carbón activo 4 Filtros de Aluminio Funcionamiento: 110V Frecuencia: 60Hz",
+    price: "5.568.000",
+  },
+  {
+    id:268,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon23.PNG?raw=true",
+    name: "Campana de mueble 52 cm",
+    ratings: 6,
+    description:"Campana de mueble 52 cm de ancho Versión filtrante Tres (3) velocidades Control: Interruptor manual  Capacidad de extracción 350 m3/h Filtros de carbón activo trampas antigrasas en aluminio lavables Fabricada en acero inoxidable  Lámparas Led 2*2W  Funcionamiento: 110V  Frecuencia: 60Hz  AnxPrxAl:52x29.6x25.4cm",
+    price: "1.092.000",
+  },
+  {
+    id:269,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon24.PNG?raw=true",
+    name: "Campana de mueble 52 cm",
+    ratings: 6,
+    description:"Campana de mueble 52 cm de ancho Versión filtrante Tres (3) velocidades Control: Interruptor manual Capacidad de extracción 550 m3/h  No Incluye kit Filtros de carbón activo trampas antigrasas en aluminio lavables Fabricada en acero inoxidable Lámparas Led 2*2W Funcionamiento: 110V Frecuencia: 60Hz AnxPrxAl:52x29.6x25.4cm",
+    price: "922.000",
+  },
+  {
+    id:270,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon25.PNG?raw=true",
+    name: "Cubierta a gas en acero 60 cm",
+    ratings: 6,
+    description:"Cubierta a gas de 60cm de ancho Encendidoelectrónico Controles frontales 4 Quemadores a gas: 1 Rápido (3,0kw) 2 Semi-rápidos (1,75kw) 1 Auxiliar (1,0kw) Parrillas en acero porcelanizado Funcionamiento: 110 v / 60hz",
+    price: "685.000",
+  },
+  {
+    id:271,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon26.PNG?raw=true",
+    name: "Cubierta a gas en acero de 60 cm",
+    ratings: 6,
+    description:"Cubierta a gas de 60cm de ancho Encendidoelectrónico Controles frontales 4 quemadores a gas: 1 Rápido (3,0kw) 2 Semi-rápidos (1,75kw) 1 Auxiliar (1,0kw) Parrillas en hierro fundido Funcionamiento: 110 v / 60hz",
+    price: "978.000",
+  },
+  {
+    id:272,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon27.PNG?raw=true",
+    name: "Cubierta a gas en acero de 71 cm",
+    ratings: 6,
+    description:"Cubierta a gas de 71 cm de ancho Encendidoelectrónico Controles frontales5 quemadores a gas: 1 Triple Corona 1 rápido (3,0kw) 1 semi-rápido (1,75kw) 2 auxiliares (1,0kw) Parrillas de hierro fundido Funcionamiento: 110 v / 60hz",
+    price: "1.722.000",
+  },
+  {
+    id:273,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon28.PNG?raw=true",
+    name: "Cubierta a gas en acero de 86 cm",
+    ratings: 6,
+    description:"Cubierta a gas de 86 cm de ancho Encendido electrónico Controles frontales 5 quemadores a gas: 1 Triple Corona 1 Rápido (3,0kw) 1 Semi-rápido (1,75kw) 2 Auxiliares (1,0kw) Parrillas de hierro fundido Funcionamiento: 110 v / 60hz",
+    price: "2.134.000",
+  },
+  {
+    id:274,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon29.PNG?raw=true",
+    name: "cubierta de cristal gas 60 cm",
+    ratings: 6,
+    description:" Cubierta a gas de vidrio templado negro 60 cm de ancho Encendidoeléctrico Controles frontales 4 quemadores a gas: 1 triple corona (4,5kw) 2 semi-rápidos (2,0kw) 1 auxiliar (1,0kw) Parrillas de Hierro Funcionamiento : 110VFrecuencia:60hz",
+    price:"1.136.000",
+  },
+  {
+    id:275,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon30.PNG?raw=true",
+    name: "Horno eléctrico 60 cm",
+    ratings: 6,
+    description:"Horno eléctrico 60 cm de ancho 4 programasdecocción Sistema de ventilación tangencial Controles manuales Clase de eficiencia energética: A Capacidad del horno: 57 litros Lámparadelhorno:1*25W Parrillas termostáticas Puerta extraíble de doble vidrio Accesorios incluidos: bandeja y parrilla Funcionamiento110vfrecuencia: 60Hz",
+    price:"1.759.000",
+  },
+  {
+    id:276,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon31.PNG?raw=true",
+    name: "Horno eléctrico 60 cm",
+    ratings: 6,
+    description:"Horno eléctrico 60 cm de ancho 4 programas de cocción Sistema de ventilación tangencial Sistema de convección  Controles manuales  Clase de eficiencia energética: A  Capacidad del horno: 57 litros  Lámpara del horno: 1 *25W Parrillas termostáticas  Puerta extraíble de doble vidrio  Accesorios incluidos: bandeja y parrilla  Funcionamiento110vfrecuencia:60Hz",
+    price:"2.110.000",
+  },
+  {
+    id:277,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon32.PNG?raw=true",
+    name: "Horno a gas 60 cm",
+    ratings: 6,
+    description:"Horno a gas de 60 cm de ancho  Controles mecánicos  Timer con señal acústica  Manija de aluminio  Encendidoeléctrico  Grillagas  Puerta de tres (3) vidrios Sistema de ventilación tangencial  5 posiciones para las parrillas  Funcionamiento:110VFrecuencia:60hz",
+    price:"2.207.000",
+  },
+  {
+    id:278,
+    itemId: "airon01",
+    imgSrc:
+      "https://github.com/rolandoto/galeria/blob/main/Airon/airon33.PNG?raw=true",
+    name: "Lavavajillas con panel acero 60 cm",
+    ratings: 6,
+    description:"Ancho de 56 cm y capacidad para 84 piezas  Indicadores luminosos de funciones LED / Interior en acero inoxidable  Potencia: 930 -1230 W / Consumo de Agua: 12L (3360L)  Sensores de agua / Material del filtro en Acero inoxidable  Sistema Anti- inundación  Seis ciclos de lavado: Intensive 60°C, Eco 54°C, Light 45°C, Crystal 40°C , rapid 40°C, Pre- enjuague, 60min 60°C.  Seguro para niños / Función de Secado  Sistema de calentamiento de agua (No requiere punto adicional para agua  caliente)  Cuenta con dos brazos rociadores  Funcionamiento 110V  Frecuencia: 60Hz",
+    price:"5.349.000",
+  }
 ];
 
 export { MenuItems, Items };

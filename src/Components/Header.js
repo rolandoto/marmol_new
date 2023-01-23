@@ -25,7 +25,7 @@ function Header() {
     <header>
       <Link to="/" >
           <img
-            src="https://ciudadenredsas.info/mademarmol/wp-content/uploads/sites/42/2019/05/logo-final-1.png"
+            src="https://github.com/rolandoto/galeria/blob/main/logo-final.jpg?raw=true"
             alt=""
             className="logo"
           />

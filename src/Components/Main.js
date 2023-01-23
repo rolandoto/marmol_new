@@ -11,7 +11,7 @@ import {useHistory} from "react-router-dom"
 function Main() {
 
   const history =useHistory()
-
+  
   const [isMainData, setMainData] = useState(
     Items.filter((element) => element.itemId == "cocina01")
   );
@@ -40,7 +40,21 @@ function Main() {
     Items.filter((element) => element.itemId == "lavaplatos01")
   )
 
-  
+  const [cafe,setCafe] = useState(
+    Items.filter((element) => element.itemId == "cafe01")
+  )
+
+  const [deli,setDeli] = useState(
+    Items.filter((element) => element.itemId == "deli01")
+  )
+
+  const [cohelum,setCohelum] = useState(
+    Items.filter((element) => element.itemId == "cohelum01")
+  )
+
+  const [airon,setAiron] = useState(
+    Items.filter((element) => element.itemId == "airon01")
+  )
 
   const [value,setValue] =useState(true)
   const [valueOne,setValueOne] =useState(false)
@@ -49,8 +63,10 @@ function Main() {
   const [valuFour,setValueFour] =useState(false)
   const [valueFive,setValueFive] =useState(false)
   const [valueSix,setValueSix] =useState(false)
-
-  
+  const [value9,setValues9] =useState(false)
+  const [value10,setValues10] =useState(false)
+  const [value11,setValue11] = useState(false)
+  const [value12,setValue12] =useState(false)
 
   const handGriferia =() =>{
     setValue(true)
@@ -60,6 +76,10 @@ function Main() {
     setValueFour(false)
     setValueFive(false)
     setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
   }
 
   const handLavamanos =() =>{
@@ -70,6 +90,10 @@ function Main() {
     setValueFour(false)
     setValueFive(false)
     setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
   }
 
   const handCocinas =() =>{
@@ -80,6 +104,10 @@ function Main() {
     setValueFour(false)
     setValueFive(false)
     setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
   }
 
   const handHornos =() =>{
@@ -90,6 +118,10 @@ function Main() {
     setValueFour(false)
     setValueFive(false)
     setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
   }
 
   const handCamapanas =() =>{
@@ -100,6 +132,10 @@ function Main() {
     setValueFour(true)
     setValueFive(false)
     setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
   }
 
   const handHerraje =() =>{
@@ -110,6 +146,10 @@ function Main() {
     setValueFour(false)
     setValueFive(true)
     setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
   }
 
 
@@ -121,8 +161,67 @@ function Main() {
     setValueFour(false)
     setValueFive(false)
     setValueSix(true)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
   }
-  
+
+  const handCafe =() =>{
+    setValue(false)
+    setValueOne(false)
+    setValueTwo(false)
+    setValueThree(false)
+    setValueFour(false)
+    setValueFive(false)
+    setValueSix(false)
+    setValues9(true)
+    setValues10(false)
+    setValue11(false)
+    setValue12(false)
+  }
+
+  const handDeli =() =>{
+    setValue(false)
+    setValueOne(false)
+    setValueTwo(false)
+    setValueThree(false)
+    setValueFour(false)
+    setValueFive(false)
+    setValueSix(false)
+    setValues9(false)
+    setValues10(true)
+    setValue11(false)
+    setValue12(false)
+  }
+
+  const handCohelum =() =>{
+    setValue(false)
+    setValueOne(false)
+    setValueTwo(false)
+    setValueThree(false)
+    setValueFour(false)
+    setValueFive(false)
+    setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(true)
+    setValue12(false)
+  }
+
+  const handAiron =() =>{
+    setValue(false)
+    setValueOne(false)
+    setValueTwo(false)
+    setValueThree(false)
+    setValueFour(false)
+    setValueFive(false)
+    setValueSix(false)
+    setValues9(false)
+    setValues10(false)
+    setValue11(false)
+    setValue12(true)
+  }
 
   const [{ cart, total }, dispatch] = useStateValue();
   const [totalPrice, setTotalPrice] = useState(0);
@@ -161,17 +260,12 @@ function Main() {
         <div className="mainContainer">
           {/* Banner  */}
           <div className="banner">
-            <BannerName name={"Jeremy"} discount={"20"} more={"#"} />
-            <img
-              src="https://firebasestorage.googleapis.com/v0/b/food-delivery-37c59.appspot.com/o/Images%2Fdelivery.png?alt=media&token=69b9823d-96df-452a-bd4e-14d27a4cc337"
-              alt=""
-              className="deliveryPic"
-            />
+           
           </div>
 
           <div className="dishContainer">
             <div className="menuCard">
-              <SubMenuContainer />
+             
             </div>
 
             <div className="rowContainer">
@@ -224,6 +318,34 @@ function Main() {
                       isActive={ valueSix? true : false}
                     />
                   </div>
+                  <div onClick={handCafe}  >
+                    <MenuCard
+                      name="Cafe"
+                      isActive={ value9? true : false}
+                    />
+                  </div>
+
+                  <div onClick={handDeli}  >
+                    <MenuCard
+                      name="Delonghi"
+                      isActive={ value10? true : false}
+                    />
+                  </div>
+
+                  <div onClick={handCohelum}  >
+                    <MenuCard
+                      name="Cohelum"
+                      isActive={ value11? true : false}
+                    />
+                  </div>
+
+                  <div onClick={handAiron}  >
+                    <MenuCard
+                      name="Airon"
+                      isActive={ value12? true : false}
+                    />
+                  </div>
+
 
             </div>
                 <div className="grid-container" >
@@ -299,6 +421,54 @@ function Main() {
                     ))}
 
                     {valueSix && lavaplatos?.map((data) => (
+                      <ItemCard
+                        key={data.id}
+                        id={data.id}
+                        itemId={data.id}
+                        imgSrc={data.imgSrc}
+                        name={data.name}
+                        ratings={data.ratings}
+                        price={data.price}
+                      />
+                    ))}
+
+                  {value9 && cafe?.map((data) => (
+                      <ItemCard
+                        key={data.id}
+                        id={data.id}
+                        itemId={data.id}
+                        imgSrc={data.imgSrc}
+                        name={data.name}
+                        ratings={data.ratings}
+                        price={data.price}
+                      />
+                    ))}
+
+                    {value10 && deli?.map((data) => (
+                      <ItemCard
+                        key={data.id}
+                        id={data.id}
+                        itemId={data.id}
+                        imgSrc={data.imgSrc}
+                        name={data.name}
+                        ratings={data.ratings}
+                        price={data.price}
+                      />
+                    ))}
+
+                    {value11 && cohelum?.map((data) => (
+                      <ItemCard
+                        key={data.id}
+                        id={data.id}
+                        itemId={data.id}
+                        imgSrc={data.imgSrc}
+                        name={data.name}
+                        ratings={data.ratings}
+                        price={data.price}
+                      />
+                    ))}
+
+                    {value12 && airon?.map((data) => (
                       <ItemCard
                         key={data.id}
                         id={data.id}

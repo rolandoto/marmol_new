@@ -22,7 +22,7 @@ function ItemCard({id, itemId, imgSrc, name, price, ratings,val,handDeleteFvorit
   const [isCart, setCart] = useState(state);
   const history =useHistory()
 
-  const link ="https://api.whatsapp.com/send/?phone=573137263479&text="
+  const link ="https://api.whatsapp.com/send/?phone=573015525536&text="
 
   const handleClick = (value) => {
     setCurrentValue(value); 
